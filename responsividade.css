@@ -1,0 +1,91 @@
+@media screen and (max-width: 1020px) {
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+        h2.titulo {
+            padding: 0px 0px 50px 0px;
+            line-height: 35px;
+            
+        }
+
+    /*CABEÇALHO*/
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /*TOPO DO SITE*/
+    section.topo-do-site .flex {
+        gap: 0px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /*ESTILO DAS ESPECIALIDADES*/
+    section.especialidades {
+        padding: 40px 8%;
+    }
+    .flex .sobre {
+        flex-direction: column-reverse;
+    }
+    section.sobre {
+        padding: 50px 4%;
+    }
+
+    .especialidades .especialidades-box {
+        width: 100%;
+        
+
+    /*ESTILO DO SOBRE*/
+    .txt-sobre{    
+    padding: 0px 6px;
+}
+section.sobre .flex {
+    gap: 20px;
+}
+.sobre .txt-sobre h2 {
+ font-size: 34px;
+ line-height: 35px;
+ text-align: center;
+}
+ .btn-social {
+    text-align: center;
+ }
+ .img-sobre img {
+    width: 100%;
+ }
+
+ /* ESTILO PORTFOLIO*/ 
+section.portfolio{
+    padding: 80px 8%;
+}
+.img-port{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+}
+/* Rodape*/
+footer .flex{
+    flex-direction: column;
+    gap: 50px;
+
+} 
+footer .line-footer {
+    text-align: center;
+}
+
+}
